@@ -1,0 +1,46 @@
+body {
+  background-color: rgb white;
+  color: lightgreen;
+  font-family: "Helvetica", sans-serif;
+}
+
+h1 {
+  color: green;
+  font-family: "Times New Roman", serif;
+  text-align: center;
+  border-bottom: 2px solid darkgreen;
+}
+
+h2 {
+  color: green;
+  font-family: "Helvetica";
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: darkgreen;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  border-bottom: 5px solid lightgreen;
+}
+
+li a:hover:not(.active) {
+  background-color: green;
+  border-bottom: 5px solid green;
+}
